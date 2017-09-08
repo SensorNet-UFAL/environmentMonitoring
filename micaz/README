@@ -1,0 +1,28 @@
+# MICAz wireless Sensor Network Application
+
+You'll find the base-station application in the
+the folder with the same name. To nodes' app,
+go for it's folder as well. This app is using
+Collection and Dissemination for it's network routing 
+and it also includes deluge, which means, after the 
+first time the app is installed, if reprogramming is needed,
+it can be done over-the-air.
+
+To install in a mote, first build it by typing in an terminal:  
+make micaz  
+
+After the make process, a class MicazMsg.java should be in the
+node folder. If you want to process arrived data, you should include
+this class in your project.
+
+to install the app in a mote (just an example):
+make micaz install.3 mib520,/dev/ttyUSB0  
+
+ - where 3 is an axample mote number (different for each mote)  
+ - mib520 is the programming interface
+ - /dev/ttyUSB0 is the communication port, which might change  
+ 
+Within the /node/Micaz.h file, you'll find the packet's content
+definition. To change the network communication channel, modify
+AM_MICAZMSG value. You can change the sampling time by modifying
+the PERIODICITY_MULTIPLIER value.
