@@ -23,7 +23,7 @@ $ make micaz
 
 After the make command, a class MicazMsg.java should be in the
 node folder. If you want to process arrived data, you should include
-this class in your project. Packets can be received  processed by running the gateway
+this class in your project. Packets can be received and processed by running the gateway
 application available in the SensorNet-UFAL/environmentMonitoring repository.
 
 Mote app instalation (just an example):  
