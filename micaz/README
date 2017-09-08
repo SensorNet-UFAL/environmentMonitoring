@@ -6,10 +6,20 @@ go for it's folder as well. This app is using
 Collection and Dissemination for it's network routing 
 and it also includes deluge, which means, after the 
 first time the app is installed, if reprogramming is needed,
-it can be done over-the-air.
+it can be done over-the-air. Do not exclude the volumes-at45db.xml
+and volumes-stm25p.xml files, they are required for Deluge to work.  
+Collected data include:
 
+ - mote voltage;
+ - temperature;
+ - pressure;
+ - humidity;
+ - light.
+
+Motes' data should be properlu processed and converted.
 To install in a mote, first build it by typing in an terminal:  
-make micaz  
+
+make micaz
 
 After the make process, a class MicazMsg.java should be in the
 node folder. If you want to process arrived data, you should include
@@ -24,5 +34,15 @@ make micaz install.3 mib520,/dev/ttyUSB0
  
 Within the /node/Micaz.h file, you'll find the packet's content
 definition. To change the network communication channel, modify
-AM_MICAZMSG value. You can change the sampling time by modifying
-the PERIODICITY_MULTIPLIER value.
+AM_MICAZMSG value, different channel networks cannot communicate
+with each other. You can change the sampling time by modifying
+the PERIODICITY_MULTIPLIER (currently set for 30s) value.
+
+In order to learn about these motes programming, please refer
+to:  
+
+	<http://tinyos.stanford.edu/tinyos-wiki/index.php/TinyOS_Tutorials>
+	<http://tinyos.stanford.edu/tinyos-wiki/index.php/Deluge_T2>
+	
+If you have some suggestions or questions about this application, 
+please contact geymerson@laccan.ufal.br
