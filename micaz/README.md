@@ -17,15 +17,16 @@ Collected data include:
  - light.
 
 Motes' data should be properly processed and converted.
-To install in a mote, first build it by typing in an terminal:  
+To install the app in a mote, first build it by typing in a terminal:  
 
 $ make micaz
 
 After the make command, a class MicazMsg.java should be in the
 node folder. If you want to process arrived data, you should include
-this class in your project.
+this class in your project. Packets can be received  processed by running the gateway
+application available in the SensorNet-UFAL/environmentMonitoring repository.
 
-to install the app in a mote (just an example):  
+Mote app instalation (just an example):  
 
 $ make micaz install.3 mib520,/dev/ttyUSB0  
 
