@@ -19,14 +19,15 @@ Collected data include:
 Motes' data should be properly processed and converted.
 To install in a mote, first build it by typing in an terminal:  
 
-make micaz
+$ make micaz
 
 After the make command, a class MicazMsg.java should be in the
 node folder. If you want to process arrived data, you should include
 this class in your project.
 
-to install the app in a mote (just an example):
-make micaz install.3 mib520,/dev/ttyUSB0  
+to install the app in a mote (just an example):  
+
+$ make micaz install.3 mib520,/dev/ttyUSB0  
 
  - where 3 is an axample mote number (different for each mote)  
  - mib520 is the programming interface
