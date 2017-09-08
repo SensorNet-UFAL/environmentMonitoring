@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>jbQuick/QChart.js</file>
+        <file>jbQuick/QChartGallery.js</file>
+        <file>qmlsource/QChart.qml</file>
+        <file>qmlsource/OverviewScreen.qml</file>
+        <file>qmlsource/Cell.qml</file>
+        <file>qmlsource/Table.qml</file>
+        <file>qmlsource/TableRow.qml</file>
+        <file>qmlsource/EnvironmentScreen.qml</file>
+        <file>sense.js</file>
+        <file>qmlsource/MButton.qml</file>
+        <file>qmlsource/MTableFlickArea.qml</file>
+        <file>qmlsource/MPickBox.qml</file>
+        <file>qmlsource/SearchScreen.qml</file>
+        <file>qmlsource/MTimePicker.qml</file>
+        <file>qmlsource/MMessageBox.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/reload.png</file>
+        <file>images/backwardButton.png</file>
+        <file>images/forwardButton.png</file>
+        <file>images/download.png</file>
+        <file>images/searchButton.png</file>
+        <file>images/closeButton.png</file>
+        <file>images/confirm.png</file>
+        <file>images/email.png</file>
+        <file>images/logout.png</file>
+        <file>images/warning.png</file>
+        <file>images/spinner.png</file>
+        <file>images/connectionOff.png</file>
+        <file>images/env_info.png</file>
+        <file>images/exclamation.png</file>
+        <file>images/noData.png</file>
+        <file>images/exit.png</file>
+        <file>images/overView.png</file>
+    </qresource>
+</RCC>
