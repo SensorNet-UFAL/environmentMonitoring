@@ -3,7 +3,8 @@
 In order to build this application, Qt Creator 5.8 or greater is required.
 You can either compile for desktop (Ubuntu, windows, MacOS) or mobile devices
 (Android, iOS, Windows Phone). The code is currently outdated and need modifications
-since the both server requests and wireless sensor network applications were updated.
+since both the server requests and wireless sensor network applications were updated.
+I'll work on it as my time allows me to do.
 
 At some point earlier, Julien Wintz's QChart.js library was used to plot graphs,
 but now Qt has it's own graph plot libraries and QChart.js is no longer in use.
