@@ -32,7 +32,7 @@ $ make micaz install.3 mib520,/dev/ttyUSB0
 
  - where 3 is an axample mote number (different for each mote)  
  - mib520 is the programming interface
- - /dev/ttyUSB0 is the communication port, which might change  
+ - /dev/ttyUSB0 is the interface's communication port, which might change  
 
 Within the /node/Micaz.h file, you'll find the packet's content
 definition. To change the network communication channel, modify
