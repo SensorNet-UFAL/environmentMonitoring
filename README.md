@@ -1,6 +1,6 @@
 # Environment Monitoring
 
-In this repository you will find some applications developed for environmemt monitoring. The repository 
+In this repository you will find some applications developed for environment monitoring. The repository 
 includes:
 
  - The wireless sensor network applications (MICAz and any other that might be used);  
