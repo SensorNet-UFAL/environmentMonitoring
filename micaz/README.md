@@ -21,7 +21,7 @@ To install in a mote, first build it by typing in an terminal:
 
 make micaz
 
-After the make process, a class MicazMsg.java should be in the
+After the make command, a class MicazMsg.java should be in the
 node folder. If you want to process arrived data, you should include
 this class in your project.
 
