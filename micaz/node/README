@@ -1,0 +1,18 @@
+After installing the base-station application on a mote
+
+Compile the Sense.java at the terminal
+	javac Sense.java
+Run the application
+	java Sense -comm serial@/dev/ttyUSB1:57600
+The collected data will be displayed in the terminal and written in the file Sampled_Data.txt
+	
+Data measurements at:
+	celcius degress for temperature;
+	mbar for pressure;
+	millivolts for voltage;
+	g for moviment detection (g ~ 9,8 m/s^2)
+	lux for light
+	percentage for humidity
+
+	
+
