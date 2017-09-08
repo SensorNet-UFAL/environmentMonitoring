@@ -1,4 +1,4 @@
-# MICAz wireless Sensor Network Application
+#MICAz wireless Sensor Network Application
 
 You'll find the base-station application in the
 the folder with the same name. To nodes' app,
@@ -45,4 +45,4 @@ to:
 	<http://tinyos.stanford.edu/tinyos-wiki/index.php/Deluge_T2>
 	
 If you have some suggestions or questions about this application, 
-please contact geymerson@laccan.ufal.br
+please contact: <geymerson@laccan.ufal.br>
