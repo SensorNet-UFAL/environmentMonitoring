@@ -36,7 +36,7 @@ $ make micaz install.3 mib520,/dev/ttyUSB0
 
 Within the /node/Micaz.h file, you'll find the packet's content
 definition. To change the network communication channel, modify
-AM_MICAZMSG value, different channel networks cannot communicate
+AM_MICAZMSG value. Different channel networks cannot communicate
 with each other. You can change the sampling time by modifying
 the PERIODICITY_MULTIPLIER (currently set for 30s) value.
 
